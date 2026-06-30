@@ -1,9 +1,12 @@
 import Sidebar from "./components/Sidebar";
+import TodoForm from "./components/TodoForm";
+import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
     <div className="flex min-h-screen bg-white">
       {/* Sidebar */}
+
       <Sidebar />
 
       {/* Main Content Area */}
