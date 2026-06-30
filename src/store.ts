@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { TodoStore } from "./types";
+import type { TodoStore } from "./types";
 
 export const useTodoStore = create<TodoStore>((set) => ({
   lists: [
