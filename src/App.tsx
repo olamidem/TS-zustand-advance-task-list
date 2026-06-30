@@ -1,3 +1,5 @@
+import Sidebar from "./components/Sidebar";
+
 const App = () => {
   return (
     <div className="flex min-h-screen bg-white">
@@ -5,7 +7,7 @@ const App = () => {
       <Sidebar />
 
       {/* Main Content Area */}
-      <main className="flex-grow p-8 md:p-12 lg:p-16 flex flex-col gap-10 max-w-5xl h-screen overflow-y-auto">
+      <main className="grow p-8 md:p-12 lg:p-16 flex flex-col gap-10 max-w-5xl h-screen overflow-y-auto">
         {/* Simple Header */}
         <div className="flex flex-col gap-1">
           <h1 className="text-3xl font-bold font-display tracking-tight text-slate-900">
